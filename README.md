@@ -1,10 +1,8 @@
-# Distance Between Two Points Calculator
+# Notebook Packing Program
 
 ## Description
 
-This program calculates the distance between two points (x1, y1) and (x2, y2) on a 2D plane
-
-using input values and a math library.
+This program helps identify how many boxes are needed to pack an amount of notebooks based on their capacity, and how many notebooks will be in loose packs.
 
 ## How to Run
 
@@ -12,31 +10,24 @@ using input values and a math library.
 
 2. Run the program file in VS Code, Replit, or Google Colab.
 
-3. Enter the values for x1, y1, x2, and y2.
+3. Enter the notebook amount and the capacity of the boxes.
 
-4. Check the distance showed on the screen.
+4. The amount of notebooks, capacity of the boxes, amount of boxes needed, and if there is, amount of notebooks in loose packs will be displayed as a result.
 
 ## Input Needed
 
-~ x1
+~ notebook count
 
-~ y1
-
-~ x2
-
-~ y2
+~ box capacity
 
 ## Example Output
 
-Enter x1 ~ 2
-
-Enter y1 ~ 3
-
-Enter x2 ~ 7
-
-Enter y2 ~ 8
-
-The distance between the two points is: 7.07
+Enter notebook count: 10
+Enter box capacity: 2
+Total notebook count:  10
+Total box capacity:  2
+Full boxes:  5
+Notebooks in loose packs:  0
 
 ## Author
 
